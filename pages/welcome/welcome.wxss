@@ -1,0 +1,39 @@
+/* pages/welcome/welcome.wxss */
+.welcome-container {
+  background-color: #00BFFF;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.avatar {
+  height: 200rpx;
+  width: 200rpx;
+  margin-top: 200rpx; 
+}
+.motto {
+  margin-top: 100rpx;
+  font-size: 32rpx;
+  font-weight: bold;
+}
+
+.jounery-container {
+  margin-top: 200rpx;
+  border: 1px solid #FFB6C1;
+  border-radius: 5px;
+  width: 200rpx;
+  height: 80rpx;
+  text-align: center;
+}
+.jounery {
+  font-size: 22rpx;
+  line-height: 80rpx;
+  color: #FFEBCD;
+}
+
+
+page {
+  height: 100%;
+}
+

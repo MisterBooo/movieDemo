@@ -1,0 +1,8 @@
+<!--pages/welcome/welcome.wxml-->
+<view class='welcome-container'>
+  <image src='/images/avatar/2.png' class='avatar'></image>
+  <text class='motto'>hello,开发者</text>
+  <view class='jounery-container' catchtap='onTap'>
+    <text class='jounery'>进入小程序</text>
+  </view>
+</view>
