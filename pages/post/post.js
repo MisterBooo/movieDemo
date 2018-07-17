@@ -6,7 +6,12 @@ Page({
    * 页面的初始数据
    */
   data: {
-  
+    imgUrls: [
+      '/images/post/xiaolong.jpg',
+      '/images/post/vr.png',
+      '/images/post/sls.jpg',
+      '/images/post/crab.png'
+    ]
   },
 
   /**

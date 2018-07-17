@@ -1,1 +1,13 @@
+
+
 /* pages/post/post.wxss */
+
+ swiper{
+     width:100%;
+     height:418rpx;
+ }
+ /*less sass*/
+ swiper image{
+     width:100%;
+     height:100%;
+ }
