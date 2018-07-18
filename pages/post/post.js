@@ -7,10 +7,9 @@ Page({
    */
   data: {
     imgUrls: [
-      '/images/post/xiaolong.jpg',
-      '/images/post/vr.png',
-      '/images/post/sls.jpg',
-      '/images/post/crab.png'
+      '/images/vr.png',
+      '/images/iqiyi.png',
+      '/images/wx.png'
     ]
   },
 
@@ -19,6 +18,9 @@ Page({
    */
   onLoad: function (options) {
     console.log(postData);
+    this.setData({
+      postList: postData.postList
+    })
   },
 
   /**
